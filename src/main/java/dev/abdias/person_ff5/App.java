@@ -8,5 +8,7 @@ public final class App {
         public static void main(String[] args) {
         Person abdias = new Person("Abdías", "Labrador", "Z26185465W",  new Date(1997, 5, 25));
         abdias.showInfo();
+        Person marta = new Person("Marta", "Lopez", "X25333585P",  new Date(1992, 2, 16), "Venezuela", 'M');
+        marta.showInfo();
     }
 }
